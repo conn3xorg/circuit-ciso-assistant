@@ -37,7 +37,7 @@ module "postgres" {
 }
 
 module "ciso_assistant" {
-  source = "github.com/conn3xorg/circuit-ciso-assistant?ref=v0.1.0"
+  source = "github.com/conn3xorg/circuit-ciso-assistant?ref=v0.1.1"
 
   depends_on = [module.postgres]
 
